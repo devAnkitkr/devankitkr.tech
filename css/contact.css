@@ -1,0 +1,139 @@
+#contact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+#contact .contact-bg-title {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 150px;
+  font-weight: 900;
+  opacity: 0.3;
+  color: #323232;
+  position: absolute;
+  bottom: -10%;
+  right: 0%;
+  z-index: 0;
+}
+
+#contact .contact-box {
+  width: 100%;
+  min-height: 350px;
+  z-index: 1;
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact-container .contact-info {
+  width: 50%;
+  min-height: 350px;
+}
+
+.contact-container .contact-info p {
+  font-size: 15px;
+}
+
+.contact-container .contact-form-container {
+  width: 50%;
+  padding: 2em 0;
+  background-color: #323232;
+  z-index: 1;
+}
+
+.contact-container .contact-form-container form {
+  width: 100%;
+}
+
+.contact-container .contact-form-container form ul {
+  list-style: none;
+}
+
+.contact-container .contact-form-container form ul li {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.contact-container .contact-form-container form ul li input,
+.contact-container .contact-form-container form ul li textarea {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  resize: none;
+  color: white;
+}
+
+.contact-container .contact-form-container form ul li textarea:focus,
+.contact-container .contact-form-container form ul li input:focus {
+  outline: none;
+}
+
+.contact-container .contact-form-container form ul li ::-webkit-input-placeholder {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-container .contact-form-container form ul li :-ms-input-placeholder {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-container .contact-form-container form ul li ::-ms-input-placeholder {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-container .contact-form-container form ul li ::placeholder {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-container .contact-form-container input[type="submit"] {
+  border: none;
+  margin: 25px auto;
+  cursor: pointer;
+  background: #40e0d0;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #212121;
+  padding: 10px 30px 10px 30px;
+  position: relative;
+}
+
+.contact-container .contact-form-container input[type="submit"]:hover {
+  -webkit-box-shadow: inset 500px 0 0 0 #ff5a5f;
+          box-shadow: inset 500px 0 0 0 #ff5a5f;
+  color: white;
+}
+
+#contact-frm {
+  -webkit-transform: translateX(150px);
+          transform: translateX(150px);
+}
+/*# sourceMappingURL=contact.css.map */

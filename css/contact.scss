@@ -1,0 +1,98 @@
+#contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+  .contact-bg-title {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+    opacity: 0.3;
+    color: #323232;
+    position: absolute;
+    bottom: -10%;
+    right: 0%;
+    z-index: 0;
+  }
+  .contact-box {
+    width: 100%;
+    min-height: 350px;
+    z-index: 1;
+  }
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  .contact-info {
+    width: 50%;
+    min-height: 350px;
+    p {
+      font-size: 15px;
+    }
+  }
+  .contact-form-container {
+    width: 50%;
+    padding: 2em 0;
+    background-color: #323232;
+    z-index: 1;
+    form {
+      width: 100%;
+      ul {
+        list-style: none;
+        li {
+          padding: 10px 0;
+          text-align: center;
+          input,
+          textarea {
+            width: 80%;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid white;
+            padding: 10px;
+            resize: none;
+            color: white;
+          }
+          textarea:focus,
+          input:focus {
+            outline: none;
+          }
+          ::placeholder {
+            color: white;
+            font-family: "Open Sans", sans-serif;
+          }
+        }
+      }
+    }
+    input[type="submit"] {
+      border: none;
+      margin: 25px auto;
+      cursor: pointer;
+      background: #40e0d0;
+      font-size: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #212121;
+      padding: 10px 30px 10px 30px;
+      position: relative;
+      // width: 80%;
+      // margin-top: 10px;
+      // letter-spacing: 2px;
+      // text-transform: uppercase;
+    }
+    input[type="submit"]:hover {
+      box-shadow: inset 500px 0 0 0 #ff5a5f;
+      color: white;
+    }
+  }
+}
+
+
+#contact-frm{
+  transform: translateX(150px);
+}

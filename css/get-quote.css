@@ -1,0 +1,144 @@
+.get-quote-form {
+  position: fixed;
+  z-index: 500;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.274);
+  top: 0;
+  left: 0;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.get-quote-form .closeButton {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.get-quote-form .closeButton span:first-child {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.get-quote-form .closeButton span:nth-child(2) {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.get-quote-form form {
+  background-color: #212121;
+  min-width: 300px;
+  max-width: 600px;
+  height: auto;
+}
+
+.get-quote-form form ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.get-quote-form form ul li {
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.get-quote-form form ul li h2 {
+  color: tomato;
+  margin: 0;
+}
+
+.get-quote-form form ul li input {
+  width: 100%;
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  resize: none;
+  color: white;
+}
+
+.get-quote-form form ul li input:focus {
+  outline: none;
+}
+
+.get-quote-form form ul li input ::-webkit-input-placeholder {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.get-quote-form form ul li input :-ms-input-placeholder {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.get-quote-form form ul li input ::-ms-input-placeholder {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.get-quote-form form ul li input ::placeholder {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.get-quote-form form ul li input[type="submit"] {
+  border: none;
+  margin: 25px auto;
+  cursor: pointer;
+  background: #40e0d0;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  position: relative;
+  z-index: 0;
+  -webkit-box-shadow: inset 0 0 0 0 #ff5a5f;
+          box-shadow: inset 0 0 0 0 #ff5a5f;
+  -webkit-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+/*# sourceMappingURL=get-quote.css.map */

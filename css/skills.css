@@ -1,0 +1,237 @@
+#skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-bg-title {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 150px;
+  font-weight: 900;
+  opacity: 0.3;
+  color: #212121;
+  position: absolute;
+  bottom: 50%;
+  right: 0%;
+}
+
+.skill-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circle-progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 200px;
+}
+
+#skills .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#skills .wrapper .card {
+  width: calc(33% - 20px);
+  height: 250px;
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#skills .wrapper .card .circle,
+#skills .wrapper .card .circle1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+
+#skills .wrapper .card .circle .box,
+#skills .wrapper .card .circle1 .box {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+
+#skills .wrapper .card .text {
+  width: 150px;
+  margin-top: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.progress-title {
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.progress-title ul {
+  width: 200%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.progress-title ul li {
+  font-size: 15px;
+}
+
+.progress-bar {
+  width: 200%;
+  height: 20px;
+  margin: 10px 0;
+  background: #2d2d2d;
+}
+
+.progress-bar #progress90 {
+  width: 20px;
+  height: 100%;
+  background: #ff5a5f;
+}
+
+.progress-bar #progress95 {
+  width: 20px;
+  height: 100%;
+  background: #ff5a5f;
+}
+
+.progress-bar #progress65 {
+  width: 20px;
+  height: 100%;
+  background: #ff5a5f;
+}
+
+.progress-bar #progress75 {
+  width: 20px;
+  height: 100%;
+  background: #ff5a5f;
+}
+
+@-webkit-keyframes ninty {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes ninty {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes nintyfive {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 95%;
+  }
+}
+
+@keyframes nintyfive {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 95%;
+  }
+}
+
+@-webkit-keyframes sixtyfive {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 65%;
+  }
+}
+
+@keyframes sixtyfive {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 65%;
+  }
+}
+
+@-webkit-keyframes seventyfive {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes seventyfive {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 75%;
+  }
+}
+/*# sourceMappingURL=skills.css.map */

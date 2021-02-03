@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Ankit Kumar</title>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"
+      integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/is-in-viewport/3.0.4/isInViewport.js"
+      integrity="sha512-BNX5BUAxxVa3kEwNeH54MKKJafAxy6aJOqo+3NgcN8BmL9qZMDd/rL0UEQx3kfEwOmncx8WP4ivYPDPf58kr0Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Lalezar&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/assets/sitelogo.png" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/get-quote.css" />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_Seh9J6JIf4oYoVkwaaUqk");
+      })();
+    </script>
+  </head>
+  <body>
+    <main class="container">
+      <div class="line">
+        <span class="line-span"></span>
+      </div>
+      <!-- ==================HEADER===================== -->
+      <div class="header">
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a href="#home"
+                ><li><h4>Home</h4></li></a
+              >
+              <a href="#skills"
+                ><li><h4>Skills</h4></li></a
+              >
+              <a href="#projects"
+                ><li><h4>Projects</h4></li></a
+              >
+              <a href="#services"
+                ><li><h4>Services</h4></li></a
+              >
+              <a href="#contact"
+                ><li><h4>Contact</h4></li></a
+              >
+            </ul>
+          </div>
+        </nav>
+
+        <div class="page-indicator"></div>
+        <div class="side-info">
+          <div class="name">
+            <span>NAME</span>
+            <p>Ankit kumar</p>
+          </div>
+          <div class="role">
+            <span>ROLE</span>
+            <p>Web Developer</p>
+          </div>
+          <div class="email">
+            <span>EMAIL</span>
+            <p>devankitkr@gmail.com</p>
+          </div>
+          <div class="social">
+            <span>SOCIAL</span>
+            <span class="social-icons">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/einkit" target="blank"
+                    ><img src="assets/fbicon.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/ankkitkr" target="blank">
+                    <img src="assets/linkdinicon.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/ankkitkr/" target="blank"
+                    ><img src="assets/instaicon.svg" alt=""
+                  /></a>
+                </li></ul
+            ></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================CONTENT================== -->
+
+      <div class="content">
+        <!-- ================== HOME-PAGE ===================== -->
+
+        <div class="section" id="home">
+          <img src="assets/01.png" alt="" class="page-nm" />
+          <div class="content-box">
+            <p>Hello! My name is</p>
+            <h1>ANKIT <br />KUMAR</h1>
+            <span
+              >A full stack all around designer that may or may not include a
+              guide for specific creative potential methods who framing and
+              evaluating moves.</span
+            >
+          </div>
+          <div class="avatar-box">
+            <img
+              src="assets/UIBLOCK.png"
+              alt=""
+              class="uiblock rellax"
+              data-rellax-speed="1"
+            />
+            <img
+              src="assets/UXBLOCK.png"
+              alt=""
+              class="uxblock rellax"
+              data-rellax-speed="1"
+            />
+            <img
+              src="assets/RANDOM1.png"
+              alt=""
+              class="random1 rellax"
+              data-rellax-speed="2"
+            />
+            <img
+              src="assets/RANDOM2.png"
+              alt=""
+              class="random2 rellax"
+              data-rellax-speed="2"
+            />
+          </div>
+        </div>
+
+        <!-- ===================== SKILLS-PAGE================== -->
+
+        <div class="section" id="skills">
+          <img src="assets/02.png" alt="" class="page-nm" />
+          <span class="skill-bg-title rellax" data-rellax-speed="2"
+            >SKILLS</span
+          >
+          <div class="section-title">
+            <h1>Skills</h1>
+          </div>
+          <div class="skill-container">
+            <div class="circle-progress-bar">
+              <div class="wrapper">
+                <div class="card web">
+                  <div class="circle postloader" data-appear-top-offset="600">
+                    <div class="bar"></div>
+                    <div class="box"><span>70%</span></div>
+                  </div>
+                  <div class="text">Website</div>
+                </div>
+              </div>
+              <div class="progress-title">
+                <ul>
+                  <li>HTML</li>
+                  <li>90%</li>
+                </ul>
+              </div>
+              <div class="progress-bar">
+                <div id="progress90"></div>
+              </div>
+
+              <div class="progress-title">
+                <ul>
+                  <li>CSS</li>
+                  <li>95%</li>
+                </ul>
+              </div>
+              <div class="progress-bar">
+                <div id="progress95"></div>
+              </div>
+            </div>
+            <div class="circle-progress-bar">
+              <div class="wrapper">
+                <div class="card photo">
+                  <div class="circle1 postloader" data-appear-top-offset="600">
+                    <div class="bar"></div>
+                    <div class="box"><span>90%</span></div>
+                  </div>
+                  <div class="text">Photography</div>
+                </div>
+              </div>
+              <div class="progress-title">
+                <ul>
+                  <li>JAVASCRIPT</li>
+                  <li>65%</li>
+                </ul>
+              </div>
+              <div class="progress-bar">
+                <div id="progress65"></div>
+              </div>
+              <div class="progress-title">
+                <ul>
+                  <li>REACT JS</li>
+                  <li>75%</li>
+                </ul>
+              </div>
+              <div class="progress-bar">
+                <div id="progress75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===================== PROJECTS-PAGE================== -->
+        <div class="section" id="projects">
+          <img src="assets/03.png" alt="" class="page-nm" />
+
+          <span class="proj-bg-title rellax" data-rellax-speed="2"
+            >PROJECTS</span
+          >
+          <div class="section-title">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-card" id="card-left">
+              <div class="proj-img"></div>
+              <div class="proj-body">
+                <div class="proj-title"><h3>Classy Tulip</h3></div>
+                <div class="proj-descript">
+                  Build on Wordpress / Woocommerce
+                </div>
+                <button
+                  class="custom-btn"
+                  onclick="location.href='https://www.classytulip.com';"
+                >
+                  CHECK OUT
+                </button>
+              </div>
+            </div>
+            <div class="project-card" id="card-center">
+              <div class="proj-img2"></div>
+              <div class="proj-body">
+                <div class="proj-title"><h3>Misaaka</h3></div>
+                <div class="proj-descript">
+                  Build on Wordpress / Woocommerce
+                </div>
+                <button
+                  class="custom-btn"
+                  onclick="location.href='https://www.misaaka.com';"
+                >
+                  CHECK OUT
+                </button>
+              </div>
+            </div>
+            <div class="project-card" id="card-right">
+              <div class="proj-img1"></div>
+              <div class="proj-body">
+                <div class="proj-title"><h3>Pixartwork</h3></div>
+                <div class="proj-descript">Build on React Js / Firebase</div>
+                <button
+                  class="custom-btn"
+                  onclick="location.href='https://www.pixartwork.com';"
+                >
+                  CHECK OUT
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===================== SERVICES-PAGE================== -->
+        <div class="section" id="services">
+          <img src="assets/04.png" alt="" class="page-nm" />
+          <span class="service-bg-title rellax" data-rellax-speed="2"
+            >SERVICES</span
+          >
+
+          <div class="section-title">
+            <h1>Services</h1>
+          </div>
+          <div class="service-container">
+            <div class="service-card" id="service1">
+              <div class="service-title"><h3>Basic Website</h3></div>
+              <div class="service-content">
+                <ul>
+                  <li>5 Pages</li>
+                  <li>Social media Integration</li>
+                  <li>Responsive Design</li>
+                  <li>Content Upload</li>
+                </ul>
+                <button class="custom-btn" onCLick="getQuoteButton(1)">
+                  Get Quote
+                </button>
+              </div>
+            </div>
+
+            <div class="service-card">
+              <div class="service-title"><h3>Advance Website</h3></div>
+              <div class="service-content">
+                <ul>
+                  <li>10 Pages</li>
+                  <li>Logo Design</li>
+                  <li>Banner Design</li>
+                  <li>Animated Elements</li>
+                  <li>Social media Integration</li>
+                  <li>Google map Integration</li>
+                  <li>Content Optimization</li>
+                </ul>
+                <button class="custom-btn" onCLick="getQuoteButton(2)">
+                  Get Quote
+                </button>
+              </div>
+            </div>
+
+            <div class="service-card" id="service2">
+              <div class="service-title"><h3>Ecommerce site</h3></div>
+              <div class="service-content">
+                <ul>
+                  <li>20 Pages</li>
+                  <li>Special attention to UI/UX</li>
+                  <li>20 Product Listing</li>
+                  <li>Payment/shipment options</li>
+                </ul>
+                <button class="custom-btn" onCLick="getQuoteButton(3)">
+                  Get Quote
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===================== CONTACT-PAGE================== -->
+        <div class="section" id="contact">
+          <img src="assets/05.png" alt="" class="page-nm" />
+          <span class="contact-bg-title rellax" data-rellax-speed="2"
+            >CONTACT</span
+          >
+          <div class="contact-box">
+            <div class="contact-container">
+              <div class="contact-info">
+                <div class="section-title"><h1>Contact</h1></div>
+                <p>
+                  If you have something specific in your mind then contact me.
+                </p>
+                <span class="social-icons">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/einkit" target="blank"
+                        ><img src="assets/fbicon.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/ankkitkr"
+                        target="blank"
+                      >
+                        <img src="assets/linkdinicon.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/ankkitkr/"
+                        target="blank"
+                        ><img src="assets/instaicon.svg" alt=""
+                      /></a>
+                    </li></ul
+                ></span>
+              </div>
+              <div class="contact-form-container" id="contact-frm">
+                <form action="" id="contact-form">
+                  <input type="hidden" name="contact_number" />
+                  <ul>
+                    <li>
+                      <input type="text" placeholder="Name" name="user_name" />
+                    </li>
+                    <li>
+                      <input
+                        type="email"
+                        placeholder="Email"
+                        name="user_email"
+                      />
+                    </li>
+                    <li>
+                      <input type="text" placeholder="Subject" name="subject" />
+                    </li>
+                    <li>
+                      <textarea
+                        name="message"
+                        id=""
+                        cols="30"
+                        rows="10"
+                        placeholder="Message"
+                      ></textarea>
+                    </li>
+                    <li>
+                      <input type="submit" class="custom-btn" value="Send" />
+                    </li>
+                  </ul>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===================== FOOTER-PAGE================== -->
+        <div class="footer" style="height: 60px; width: 100%; padding: 1em 0">
+          <p
+            style="
+              text-align: center;
+              font-size: 13px;
+              color: lightgrey;
+              line-height: 20px;
+            "
+          >
+            Copyright 2021 by Ankit Kumar. All Rights Reserved.<br />
+            DevAnkitkr is Powered by HTML/CSS/JS.
+          </p>
+        </div>
+      </div>
+      <div class="modal">
+        <h5>Message Has been Sent</h5>
+      </div>
+    </main>
+
+    <!-- ===============GET-QUOTE-FORM-SECTION=============== -->
+
+    <div class="get-quote-form">
+      <form action="" id="getQuote-form">
+        <ul>
+          <li>
+            <div class="closeButton" onClick="closeGetQuote()">
+              <span></span>
+              <span></span>
+            </div>
+          </li>
+          <li>
+            <h2>GET QUOTE</h2>
+          </li>
+          <li>
+            <input type="hidden" name="contact_number" />
+            <input type="text" placeholder="Name" name="user_name" />
+          </li>
+          <li>
+            <input type="email" placeholder="Email" name="user_email" />
+          </li>
+          <li>
+            <input type="hidden" placeholder="Subject" name="subject" id="subject"/>
+          </li>
+          <li>
+            <input type="hidden" placeholder="message" name="subject" id="subject"/>
+          </li>
+          <li>
+            <input type="submit" value="send" class="custom-btn" />
+          </li>
+        </ul>
+      </form>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+      integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var rellax = new Rellax(".rellax");
+      gsap.to("#card-left", {
+        scrollTrigger: {
+          trigger: "#card-left",
+          start: "top bottom",
+          toggleActions: "play pause resume reset",
+          duration: "500ms",
+        },
+        x: "0px",
+      });
+      gsap.to("#card-center", {
+        scrollTrigger: {
+          trigger: "#card-left",
+          start: "top bottom",
+          toggleActions: "play pause resume reset",
+        },
+        y: "0px",
+      });
+      gsap.to("#card-right", {
+        scrollTrigger: {
+          trigger: "#card-right",
+          start: "top bottom",
+          toggleActions: "play pause resume reset",
+        },
+        x: "0px",
+      });
+      gsap.to("#service1", {
+        scrollTrigger: {
+          trigger: "#service1",
+          start: "top bottom",
+          toggleActions: "play pause resume reset",
+        },
+        x: "0px",
+      });
+      gsap.to("#service2", {
+        scrollTrigger: {
+          trigger: "#service2",
+          start: "top bottom",
+          toggleActions: "play pause resume reset",
+        },
+        x: "0px",
+      });
+      gsap.to("#contact-frm", {
+        scrollTrigger: {
+          trigger: "#contact-frm",
+          start: "top bottom",
+          toggleActions: "play pause resume reset",
+        },
+        x: "0px",
+      });
+    </script>
+  </body>
+</html>

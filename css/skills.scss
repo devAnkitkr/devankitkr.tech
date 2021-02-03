@@ -1,0 +1,148 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  position: relative;
+}
+.skill-bg-title {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 150px;
+  font-weight: 900;
+  opacity: 0.3;
+  color: #212121;
+  position: absolute;
+  bottom: 50%;
+  right: 0%;
+}
+
+.skill-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.circle-progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 200px;
+}
+#skills .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .card {
+    width: calc(33% - 20px);
+    height: 250px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    .circle,
+    .circle1 {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      position: relative;
+      .box {
+        position: absolute;
+        top: 45%;
+        left: 40%;
+      }
+    }
+    .text {
+      width: 150px;
+      margin-top: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+}
+
+.progress-title {
+  margin-top: 10px;
+  padding: 2px;
+  ul {
+    width: 200%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      font-size: 15px;
+    }
+  }
+}
+
+.progress-bar {
+  width: 200%;
+  height: 20px;
+  margin: 10px 0;
+  background: #2d2d2d;
+  #progress90 {
+    width: 20px;
+    height: 100%;
+    background: #ff5a5f;
+    // animation: ninty 2s forwards;
+  }
+  #progress95 {
+    width: 20px;
+    height: 100%;
+    background: #ff5a5f;
+    // animation: ninty 2s forwards;
+  }
+  #progress65 {
+    width: 20px;
+    height: 100%;
+    background: #ff5a5f;
+    // animation: ninty 2s forwards;
+  }
+  #progress75 {
+    width: 20px;
+    height: 100%;
+    background: #ff5a5f;
+    // animation: ninty 2s forwards;
+  }
+}
+
+@keyframes ninty {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes nintyfive {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 95%;
+  }
+}
+
+@keyframes sixtyfive {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 65%;
+  }
+}
+
+@keyframes seventyfive {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 75%;
+  }
+}

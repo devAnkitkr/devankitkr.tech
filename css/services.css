@@ -1,0 +1,177 @@
+#services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+#services .service-bg-title {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 150px;
+  font-weight: 900;
+  opacity: 0.3;
+  color: #212121;
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+}
+
+#services .service-container {
+  width: 100%;
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#services .service-card {
+  min-width: 300px;
+  height: 350px;
+  margin: 10px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  background: #212121;
+  -webkit-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.267);
+          box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.267);
+  -webkit-transition: width 300ms ease;
+  transition: width 300ms ease;
+}
+
+#services .service-card .service-title {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background: #ff5a5f;
+}
+
+#services .service-card .service-content {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px;
+  border: 1px solid #ff5a5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#services .service-card .service-content ul {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #323232;
+}
+
+#services .service-card .service-content ul li {
+  width: 100%;
+  padding: 6px 0px;
+  text-align: left;
+  position: relative;
+  font-size: 15px;
+}
+
+#services .service-card .service-content ul li::before {
+  content: "";
+  background-image: url("/assets/tick.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+#services .service-card .service-content button {
+  margin-top: 30px;
+}
+
+#services .service-card:nth-child(2) {
+  width: 350px;
+  height: 420px;
+}
+
+#services .service-card:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 20px solid #323232;
+  border-left: 20px solid #ff5a5f;
+}
+
+#services .service-card:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 20px solid #323232;
+  border-right: 20px solid #ff5a5f;
+}
+
+#service1 {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+
+#service2 {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+}
+/*# sourceMappingURL=services.css.map */
